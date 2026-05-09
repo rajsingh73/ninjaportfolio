@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 h-16">
         <a href="#home" className="text-xl font-bold gradient-text font-mono">
-          &lt;Ayush /&gt;
+          &lt;Aditya /&gt;
         </a>
 
         {/* Desktop */}
@@ -53,7 +53,7 @@ const Navbar = () => {
             {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
           </button>
           <a
-            href="/Ayush_Raj_CV.pdf"
+            href="/adityaresume.pdf"
             download
             className="gradient-bg text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity flex items-center gap-2"
           >
@@ -93,7 +93,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="/Ayush_Raj_CV.pdf"
+                href="/adityaresume.pdf"
                 download
                 className="gradient-bg text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium text-center mt-2"
               >

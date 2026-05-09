@@ -3,10 +3,10 @@ import { Award, ExternalLink } from "lucide-react";
 import SectionWrapper from "./SectionWrapper";
 
 const certs = [
-  { title: "UI/UX Design Thinking & Figma", link: "https://drive.google.com/file/d/1FwlEpG8GRubpruIDpI11rQuIiXG9VGD8/view" },
-  { title: "Cloud Computing – NPTEL", link: "https://drive.google.com/file/d/1j-cxTxJgf3wywwU0AnRctvcgQzgclpBG/view" },
-  { title: "ChatGPT Prompt Engineering – Infosys", link: "https://drive.google.com/file/d/1FxlS78RKUllM_iThgyy-0hrKGFH_nCXg/view" },
-  { title: "Oracle Generative AI Certification", link: "https://drive.google.com/file/d/1KwjjscOI6CQUeg8ZrvG4XLQAZtt3xxOE/view" },
+  { title: "Master generative AI & AI tools", link: "https://drive.google.com/file/d/1MeNJldrVwRLk2FPSyvurW_lHSIIjP0h-/view?usp=drivesdk" },
+  { title: "Foundations of Entrepreneurship", link: "https://drive.google.com/file/d/1_yT0fHI8kRAx3RExgcDgdjtw6qMXtfYP/view?usp=drivesdk" },
+  { title: "Responsive Web Design", link: "https://drive.google.com/file/d/1rUqmJ1LAJ1r5p7sLTtR9Ls-_NRuGfZq1/view?usp=drivesdk" },
+  { title: "Computer Programming", link: "https://drive.google.com/file/d/1Sa_lZWu1rQ-FvfnceO7GfeRBICBF_dPu/view?usp=drivesdk" },
 ];
 
 const Certifications = () => (

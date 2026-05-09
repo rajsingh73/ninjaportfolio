@@ -13,7 +13,7 @@ const About = () => (
     <div className="grid md:grid-cols-2 gap-8 items-start">
       <div className="space-y-6">
         <p className="text-muted-foreground leading-relaxed">
-          I'm <span className="text-foreground font-semibold">Ayush Raj</span>, a Computer Science & Engineering student
+          I'm <span className="text-foreground font-semibold">Aditya Prakash</span>, a Computer Science & Engineering student
           passionate about full stack development and modern technologies. I love building real-world
           applications that solve meaningful problems and continuously push myself to learn and grow.
         </p>
@@ -28,7 +28,7 @@ const About = () => (
         {[
           { icon: GraduationCap, title: "B.Tech CSE", desc: "Lovely Professional University" },
           { icon: MapPin, title: "Punjab, India", desc: "Currently Based" },
-          { icon: Calendar, title: "Since Aug 2023", desc: "CGPA: 9.11" },
+          { icon: Calendar, title: "Since Aug 2023", desc: "CGPA: 6.87" },
           { icon: Code2, title: "Full Stack", desc: "MERN Stack Developer" },
         ].map(({ icon: Icon, title, desc }) => (
           <div key={title} className="p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-colors group">

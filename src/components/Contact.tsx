@@ -77,10 +77,10 @@ const Contact = () => {
           </p>
           <div className="space-y-4">
             {[
-              { icon: Mail, label: "ayushraj569935@gmail.com", href: "mailto:ayushraj569935@gmail.com" },
-              { icon: Phone, label: "+91-7903944904", href: "tel:+917903944904" },
-              { icon: Github, label: "github.com/ayushh002", href: "https://github.com/ayushh002" },
-              { icon: Linkedin, label: "linkedin.com/in/ayushraj002", href: "https://www.linkedin.com/in/ayushraj002/" },
+              { icon: Mail, label: "Kumaradityasonpur@gmail.com", href: "mailto:Kumaradityasonpur@gmail.com" },
+              { icon: Phone, label: "+91-7667115221", href: "tel:+917667115221" },
+              { icon: Github, label: "github.com/A1Ninj2a", href: "https://github.com/A1Ninj2a" },
+              { icon: Linkedin, label: "linkedin.com/in/aditya", href: "https://www.linkedin.com/in/aditya-prakash-507b37298/" },
             ].map(({ icon: Icon, label, href }) => (
               <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group">
                 <div className="p-2 rounded-lg bg-secondary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">

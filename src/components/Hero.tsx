@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.jpeg";
 
 const roles = ["Full Stack Developer", "MERN Stack Developer", "Competitive Programmer"];
 
@@ -49,7 +49,7 @@ const Hero = () => {
         >
           <p className="text-sm font-mono text-primary mb-2">Hello, I'm</p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4 text-foreground">
-            Ayush <span className="gradient-text">Raj</span>
+            Aditya <span className="gradient-text">Prakash</span>
           </h1>
           <div className="h-8 mb-6">
             <span className="text-lg sm:text-xl font-mono text-primary">
@@ -63,7 +63,7 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-            <a href="/Ayush_Raj_CV.pdf" download className="gradient-bg text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
+            <a href="/adityaresume.pdf" download className="gradient-bg text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
               Download Resume
             </a>
             <a href="#projects" className="px-6 py-3 rounded-lg font-medium border border-border hover:bg-secondary transition-colors text-foreground">
@@ -75,13 +75,13 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-4 mt-8 justify-center lg:justify-start">
-            <a href="https://github.com/ayushh002" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg glass hover:scale-110 transition-transform text-foreground">
+            <a href="https://github.com/A1Ninj2a" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg glass hover:scale-110 transition-transform text-foreground">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/ayushraj002/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg glass hover:scale-110 transition-transform text-foreground">
+            <a href="https://www.linkedin.com/in/aditya-prakash-507b37298/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg glass hover:scale-110 transition-transform text-foreground">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:ayushraj569935@gmail.com" className="p-3 rounded-lg glass hover:scale-110 transition-transform text-foreground">
+            <a href="mailto:Kumaradityasonpur@gmail.com" className="p-3 rounded-lg glass hover:scale-110 transition-transform text-foreground">
               <Mail size={20} />
             </a>
           </div>

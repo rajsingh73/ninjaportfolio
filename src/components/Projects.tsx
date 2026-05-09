@@ -1,17 +1,17 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import SectionWrapper from "./SectionWrapper";
-import BeatCode from "../assets/beatCode.png";
+import Bikerent from "../assets/bikerent.png";
 import Swiggy from "../assets/swiggy.png";
 
 const projects = [
   {
-    title: "Beatcode – Online Coding Platform",
-    thumbnail: BeatCode,
+    title: "Bike Rental - Website",
+    thumbnail: Bikerent,
     description:
-      "A full-stack coding platform where users can write, run, and submit code in multiple languages. Features JWT authentication, Redis-based token invalidation, and Judge0 API integration for real-time code execution.",
+      "A full-stack bike rental platform with online booking, real-time bike availability, secure JWT authentication, payment integration, location-based search, and an admin dashboard for managing rentals and users.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Redis", "Judge0 API", "JWT", "Tailwind CSS", "DaisyUI"],
-    github: "https://github.com/ayushh002/BeatCode",
+    github: "https://github.com/A1Ninj2a/bike-rental",
   },
   {
     title: "Swiggy – Food Delivery App",
@@ -19,7 +19,7 @@ const projects = [
     description:
       "A React-based food delivery application that fetches restaurant and menu data from Swiggy's live API, processes deeply nested JSON structures, and manages cart state using Redux for a seamless user experience.",
     tech: ["React.js", "Redux", "JavaScript", "REST APIs", "Tailwind CSS", "Axios", "React Router"],
-    github: "https://github.com/ayushh002/swiggy",
+    github: "https://github.com/A1Ninj2a/swiggy",
   },
 ];
 
@@ -75,7 +75,7 @@ const Projects = () => (
 
     <div className="text-center mt-10">
       <a
-        href="https://github.com/ayushh002"
+        href="https://github.com/A1Ninj2a"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border hover:bg-secondary transition-colors text-foreground font-medium"

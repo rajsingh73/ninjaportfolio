@@ -5,7 +5,7 @@ import SectionWrapper from "./SectionWrapper";
 const achievements = [
   {
     icon: Trophy,
-    title: "300+ Coding Problems Solved",
+    title: "100+ Coding Problems Solved",
     description: "Consistently solving problems across platforms to strengthen DSA fundamentals.",
     link: "https://codolio.com/profile/ayushh002",
   },
@@ -14,12 +14,6 @@ const achievements = [
     title: "5-Star Rating on HackerRank",
     description: "Achieved top rating in problem solving on HackerRank.",
     link: "https://www.hackerrank.com/profile/ayushraj569935",
-  },
-  {
-    icon: Medal,
-    title: "Gold Medalist – International Math Olympiad",
-    description: "Recognized for excellence in mathematical reasoning and problem solving.",
-    link: "https://drive.google.com/file/d/1kaMCy5_3-U_su_uuoUYrbSmiZxepuP5Z/view",
   },
 ];
 
@@ -34,11 +28,8 @@ const Achievements = () => (
 
     <div className="max-w-3xl mx-auto space-y-6">
       {achievements.map((item, i) => (
-        <motion.a
+        <motion.div
           key={item.title}
-          href={item.link}
-          target="_blank"
-          rel="noopener noreferrer"
           initial={{ opacity: 0, x: i % 2 === 0 ? -30 : 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -54,7 +45,7 @@ const Achievements = () => (
             </h3>
             <p className="text-muted-foreground text-sm mt-1">{item.description}</p>
           </div>
-        </motion.a>
+        </motion.div>
       ))}
     </div>
   </SectionWrapper>
