@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import profileImg from "@/assets/profile.jpeg";
+import profileImg from "@/assets/profile.jpg";
 
 const roles = ["Full Stack Developer", "MERN Stack Developer", "Competitive Programmer"];
 
